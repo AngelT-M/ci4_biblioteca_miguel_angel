@@ -1,0 +1,1041 @@
+ERROR - 2026-09-10 14:07:03 --> Duplicate entry '10' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (:codigo_empleado:, :nombre:, :apellido:, :direccion:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:07:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10' for key 'PRIMARY'
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (:codigo_empleado:, :nombre:, :apellido:, :direccion:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:07:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (:codigo_empleado:, :nombre:, :apellido:, :direccion:, :email:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:07:03 --> [Caused by] mysqli_sql_exception: Duplicate entry '10' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (\'10\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'tomas4321.3@gmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `empleados` (`codigo_empleado`, `nombre`, `apellido`, `direccion`, `email`) VALUES (:codigo_empleado:, :nombre:, :apellido:, :direccion:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:44:23 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: estudiante]
+in APPPATH\Config\Routes.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 14:45:34 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (:nombre:, :apellido:, :direccion:, :telefono:, :email:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(38): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:45:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: guardar_estudiante]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (:nombre:, :apellido:, :direccion:, :telefono:, :email:, :codigo_grado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudianteController.php(38): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:45:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (:nombre:, :apellido:, :direccion:, :telefono:, :email:, :codigo_grado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EstudianteController.php(38): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:45:34 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (\'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`nombre`, `apellido`, `direccion`, `telefono`, `email`, `codigo_grado`) VALUES (:nombre:, :apellido:, :direccion:, :telefono:, :email:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(38): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 14:52:31 --> Duplicate entry '140' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:52:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '140' for key 'PRIMARY'
+[Method: POST, Route: guardar_estudiante]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:52:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '140' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:52:31 --> [Caused by] mysqli_sql_exception: Duplicate entry '140' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 14:52:58 --> Duplicate entry '140' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:52:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '140' for key 'PRIMARY'
+[Method: POST, Route: guardar_estudiante]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:52:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '140' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:52:58 --> [Caused by] mysqli_sql_exception: Duplicate entry '140' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'140\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'64132356\', \'tomas4321.3@gmail.com\', \'2026-09-08\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:58:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: eliminarEstu/0]
+in APPPATH\Controllers\EstudianteController.php on line 41.
+ 1 APPPATH\Controllers\EstudianteController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('0')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:58:46 --> ErrorException: Undefined variable $codigo
+[Method: GET, Route: eliminarEstu/0]
+in APPPATH\Controllers\EstudianteController.php on line 41.
+ 1 APPPATH\Controllers\EstudianteController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $codigo', 'C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('0')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:59:20 --> CodeIgniter\Exceptions\InvalidArgumentException: Invalid primary key: '0' is not allowed.
+[Method: GET, Route: eliminarEstu/0]
+in SYSTEMPATH\BaseModel.php on line 833.
+ 1 SYSTEMPATH\BaseModel.php(818): CodeIgniter\BaseModel->validateID('0', false)
+ 2 SYSTEMPATH\BaseModel.php(1191): CodeIgniter\BaseModel->validateID([...])
+ 3 APPPATH\Controllers\EstudianteController.php(41): CodeIgniter\BaseModel->delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('0')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 14:59:28 --> Unknown column 'corne_alumno' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 5 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\EstudianteController.php(41): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:59:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'corne_alumno' in 'where clause'
+[Method: GET, Route: eliminarEstu/140]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 2 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\EstudianteController.php(41): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:59:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'corne_alumno' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 4 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\EstudianteController.php(41): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:59:28 --> [Caused by] mysqli_sql_exception: Unknown column 'corne_alumno' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 5 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\EstudianteController.php(41): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:01:44 --> CodeIgniter\Exceptions\InvalidArgumentException: Invalid primary key: '0' is not allowed.
+[Method: GET, Route: eliminarEstu/0]
+in SYSTEMPATH\BaseModel.php on line 833.
+ 1 SYSTEMPATH\BaseModel.php(818): CodeIgniter\BaseModel->validateID('0', false)
+ 2 SYSTEMPATH\BaseModel.php(1191): CodeIgniter\BaseModel->validateID([...])
+ 3 APPPATH\Controllers\EstudianteController.php(42): CodeIgniter\BaseModel->delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('0')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 15:01:53 --> Unknown column 'corne_alumno' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 5 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\EstudianteController.php(42): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:01:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'corne_alumno' in 'where clause'
+[Method: GET, Route: eliminarEstu/140]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 2 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\EstudianteController.php(42): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:01:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'corne_alumno' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 4 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\EstudianteController.php(42): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:01:53 --> [Caused by] mysqli_sql_exception: Unknown column 'corne_alumno' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN (\'140\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2865): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudiantes`
+WHERE `corne_alumno` IN :corne_alumno:', [...], false)
+ 5 SYSTEMPATH\Model.php(443): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\EstudianteController.php(42): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('140')
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:04:48 --> CodeIgniter\Exceptions\InvalidArgumentException: Invalid primary key: '0' is not allowed.
+[Method: GET, Route: eliminarEstu/0]
+in SYSTEMPATH\BaseModel.php on line 833.
+ 1 SYSTEMPATH\BaseModel.php(818): CodeIgniter\BaseModel->validateID('0', false)
+ 2 SYSTEMPATH\BaseModel.php(1191): CodeIgniter\BaseModel->validateID([...])
+ 3 APPPATH\Controllers\EstudianteController.php(42): CodeIgniter\BaseModel->delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('0')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:05:36 --> CodeIgniter\Exceptions\InvalidArgumentException: Invalid primary key: '0' is not allowed.
+[Method: GET, Route: eliminarEstu/0]
+in SYSTEMPATH\BaseModel.php on line 833.
+ 1 SYSTEMPATH\BaseModel.php(818): CodeIgniter\BaseModel->validateID('0', false)
+ 2 SYSTEMPATH\BaseModel.php(1191): CodeIgniter\BaseModel->validateID([...])
+ 3 APPPATH\Controllers\EstudianteController.php(42): CodeIgniter\BaseModel->delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->eliminar('0')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 15:09:33 --> Duplicate entry '20' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:09:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '20' for key 'PRIMARY'
+[Method: POST, Route: guardar_estudiante]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudianteController.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:09:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '20' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EstudianteController.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:09:33 --> [Caused by] mysqli_sql_exception: Duplicate entry '20' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'20\', \'Miguel Angel\', \'Tomás Martín\', \'5-15\', \'46154759\', \'tomas4321.3@gmail.com\', \'2026-09-17\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:16:29 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: eliminarEstu/2013001]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('eliminarEstu/2013001')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:16:55 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: eliminarEstu/140]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('eliminarEstu/140')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:16:55 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: eliminarEstu/140]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('eliminarEstu/140')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:16:56 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:16:59 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:16:59 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:18:59 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:00 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:00 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:00 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:00 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:01 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:01 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:01 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:01 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:01 --> ParseError: syntax error, unexpected identifier "view", expecting ":"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:26 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:27 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:27 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: estudiante]
+in APPPATH\Controllers\EstudianteController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstudianteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudianteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudianteController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EstudianteController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('estudiante')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:35 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:19:48 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:20:35 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:20:36 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:20:39 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:21:10 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:21:14 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:21:51 --> ArgumentCountError: Too few arguments to function App\Controllers\EstudianteController::buscar(), 0 passed in C:\xampp\htdocs\fs2026\ci4_biblioteca_miguel_angel\system\CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: buscarEstu/20]
+in APPPATH\Controllers\EstudianteController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 15:34:05 --> Duplicate entry '25' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:34:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '25' for key 'PRIMARY'
+[Method: POST, Route: guardar_estudiante]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:34:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '25' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:34:05 --> [Caused by] mysqli_sql_exception: Duplicate entry '25' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (\'25\', \'Luis \', \'asasd\', \'5-15\', \'55360061\', \'tomas4321.3@gmail.com\', \'2026-09-23\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estudiantes` (`carne_alumno`, `nombre`, `apellido`, `direccion`, `telefono`, `email`, `fechanacimiento`, `codigo_grado`) VALUES (:carne_alumno:, :nombre:, :apellido:, :direccion:, :telefono:, :email:, :fechanacimiento:, :codigo_grado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EstudianteController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstudianteController->guardarEstudiante()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudianteController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 15:51:17 --> Duplicate entry '12' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (:codigo_grado:, :nombre:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\GradosController.php(28): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\GradosController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GradosController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:51:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12' for key 'PRIMARY'
+[Method: POST, Route: guardar_grado]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (:codigo_grado:, :nombre:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\GradosController.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\GradosController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GradosController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:51:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (:codigo_grado:, :nombre:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\GradosController.php(28): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\GradosController->guardar()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GradosController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 15:51:17 --> [Caused by] mysqli_sql_exception: Duplicate entry '12' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (\'12\', \'Barillas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `grados` (`codigo_grado`, `nombre`) VALUES (:codigo_grado:, :nombre:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\GradosController.php(28): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\GradosController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GradosController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-10 18:09:53 --> Cannot add or update a child row: a foreign key constraint fails (`fs2026_biblioteca`.`libros`, CONSTRAINT `libros_ibfk_2` FOREIGN KEY (`codigo_editorial`) REFERENCES `editoriales` (`codigo_editorial`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (:codigo_libro:, :codigo_autor:, :codigo_editorial:, :titulo:, :numero_paginas:, :tamanio:, :precio:, :estado:, :edicion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LibrosController.php(17): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LibrosController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 18:09:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`fs2026_biblioteca`.`libros`, CONSTRAINT `libros_ibfk_2` FOREIGN KEY (`codigo_editorial`) REFERENCES `editoriales` (`codigo_editorial`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: guardar_libro]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (:codigo_libro:, :codigo_autor:, :codigo_editorial:, :titulo:, :numero_paginas:, :tamanio:, :precio:, :estado:, :edicion:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\LibrosController.php(17): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LibrosController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 18:09:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`fs2026_biblioteca`.`libros`, CONSTRAINT `libros_ibfk_2` FOREIGN KEY (`codigo_editorial`) REFERENCES `editoriales` (`codigo_editorial`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (:codigo_libro:, :codigo_autor:, :codigo_editorial:, :titulo:, :numero_paginas:, :tamanio:, :precio:, :estado:, :edicion:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\LibrosController.php(17): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LibrosController->guardar()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 18:09:53 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`fs2026_biblioteca`.`libros`, CONSTRAINT `libros_ibfk_2` FOREIGN KEY (`codigo_editorial`) REFERENCES `editoriales` (`codigo_editorial`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (\'10\', \'1\', \'1\', \'Harry Potter \', \'100\', \'8\', \'400\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `libros` (`codigo_libro`, `codigo_autor`, `codigo_editorial`, `titulo`, `numero_paginas`, `tamanio`, `precio`, `estado`, `edicion`) VALUES (:codigo_libro:, :codigo_autor:, :codigo_editorial:, :titulo:, :numero_paginas:, :tamanio:, :precio:, :estado:, :edicion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LibrosController.php(17): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LibrosController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,194 @@
+CRITICAL - 2026-08-28 14:45:41 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: empleado]
+in APPPATH\Models\EmpleadosModel.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Models\\EmpleadosModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\EmpleadosModel')
+ 3 APPPATH\Controllers\EmpleadoController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\EmpleadosModel')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->mostrarDatos()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 14:45:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "empleados.php"
+[Method: GET, Route: empleado]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('empleados', [], true)
+ 3 APPPATH\Controllers\EmpleadoController.php(13): view('empleados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->mostrarDatos()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 14:46:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "empleados.php"
+[Method: GET, Route: empleado]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('empleados', [], true)
+ 3 APPPATH\Controllers\EmpleadoController.php(13): view('empleados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->mostrarDatos()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 14:46:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "empleados.php"
+[Method: GET, Route: empleado]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('empleados', [], true)
+ 3 APPPATH\Controllers\EmpleadoController.php(13): view('empleados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->mostrarDatos()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 15:34:30 --> ParseError: syntax error, unexpected identifier "view"
+[Method: GET, Route: grado]
+in APPPATH\Controllers\GradosController.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\GradosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\GradosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\GradosController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\GradosController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('grado')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 15:52:17 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: grado]
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 15:52:21 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: grado]
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:13:18 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: guardar_empleado]
+in APPPATH\Config\Routes.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:13:32 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\BaseModel.php on line 1876.
+ 1 SYSTEMPATH\BaseModel.php(1876): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(865): CodeIgniter\BaseModel->transformDataToArray(null, 'insert')
+ 3 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert(null, true)
+ 4 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:14:33 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\EmpleadosModel"
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\Model.php on line 680.
+ 1 SYSTEMPATH\Model.php(680): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\EmpleadosModel')
+ 2 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:15:00 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\EmpleadosModel"
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\Model.php on line 680.
+ 1 SYSTEMPATH\Model.php(680): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\EmpleadosModel')
+ 2 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:18:38 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\EmpleadosModel"
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\Model.php on line 680.
+ 1 SYSTEMPATH\Model.php(680): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\EmpleadosModel')
+ 2 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:21:10 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\EmpleadosModel"
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\Model.php on line 680.
+ 1 SYSTEMPATH\Model.php(680): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\EmpleadosModel')
+ 2 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:23:18 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\EmpleadosModel"
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\Model.php on line 680.
+ 1 SYSTEMPATH\Model.php(680): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\EmpleadosModel')
+ 2 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:23:33 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+[Method: POST, Route: guardar_empleado]
+in APPPATH\Controllers\EmpleadoController.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EmpleadoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmpleadoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmpleadoController')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\EmpleadoController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('guardar_empleado')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-28 17:24:13 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\EmpleadosModel"
+[Method: POST, Route: guardar_empleado]
+in SYSTEMPATH\Model.php on line 680.
+ 1 SYSTEMPATH\Model.php(680): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\EmpleadosModel')
+ 2 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\EmpleadoController.php(34): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EmpleadoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpleadoController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

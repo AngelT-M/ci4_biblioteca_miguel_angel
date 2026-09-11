@@ -1,0 +1,277 @@
+CRITICAL - 2026-08-27 17:02:18 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:03:28 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:03:29 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:03:51 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:03:56 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:04:35 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:04:53 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:04:56 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:05:40 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:05:41 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:05:41 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:05:43 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: hola]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:05:45 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:05:54 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: pagina_mensaje]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:06:08 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:06:08 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:07:27 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: micontrolador]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 17:13:41 --> Error: Call to undefined function App\Controllers\viem()
+[Method: GET, Route: programacion]
+in APPPATH\Controllers\Nose.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Nose->jajaja()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nose))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:00:10 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: aprendido]
+in APPPATH\Config\Routes.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:00:16 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: estados]
+in APPPATH\Config\Routes.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:00:25 --> Error: Class "CodeIngite\Model" not found
+[Method: GET, Route: estados]
+in APPPATH\Models\EstadosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Models\\EstadosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\EstadosModel')
+ 4 APPPATH\Controllers\EstadosController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\EstadosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:03:23 --> Error: Class "CodeIngite\Model" not found
+[Method: GET, Route: estados]
+in APPPATH\Models\EstadosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Models\\EstadosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\EstadosModel')
+ 4 APPPATH\Controllers\EstadosController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\EstadosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:03:47 --> Error: Class "CodeIngite\Model" not found
+[Method: GET, Route: estados]
+in APPPATH\Models\EstadosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Models\\EstadosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\EstadosModel')
+ 4 APPPATH\Controllers\EstadosController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\EstadosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:04:12 --> Error: Class "CodeIngite\Model" not found
+[Method: GET, Route: estados]
+in APPPATH\Models\EstadosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Models\\EstadosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\EstadosModel')
+ 4 APPPATH\Controllers\EstadosController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\EstadosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:04:25 --> Error: Class "CodeIngite\Model" not found
+[Method: GET, Route: estados]
+in APPPATH\Models\EstadosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Models\\EstadosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\EstadosModel')
+ 4 APPPATH\Controllers\EstadosController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\EstadosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:05:02 --> ErrorException: Undefined variable $estado
+[Method: GET, Route: estados]
+in APPPATH\Controllers\EstadosController.php on line 13.
+ 1 APPPATH\Controllers\EstadosController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estado', 'C:\\xampp\\htdocs\\fs2026\\ci4_biblioteca_miguel_angel\\app\\Controllers\\EstadosController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 18:06:18 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\EstadosModel::finAll
+[Method: GET, Route: estados]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\EstadosController.php(13): CodeIgniter\Model->__call('finAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-08-27 19:40:07 --> ParseError: syntax error, unexpected token "?"
+[Method: GET, Route: estados]
+in APPPATH\Views\estados.php on line 56.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('estados', [], true)
+ 3 APPPATH\Controllers\EstadosController.php(15): view('estados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\EstadosController->mostrarDatos()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadosController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
